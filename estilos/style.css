@@ -86,7 +86,7 @@ nav ul li a:hover::after{
 
 .section{
     height: 100vh;
-    align-items: center;
+    
     justify-content: center;
     max-width: 160rem;
     width: 100%;
@@ -96,7 +96,7 @@ nav ul li a:hover::after{
     justify-content: center;
     
     align-items: center;
-    max-width: 120rem;
+    max-width: 130rem;
     position: relative;
     
     
