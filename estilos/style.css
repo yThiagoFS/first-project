@@ -88,7 +88,7 @@ nav ul li a:hover::after{
     height: 100vh;
     
     justify-content: center;
-    max-width: 130rem;
+    max-width: 150rem;
     width: 100%;
 }
 .container{
