@@ -1,0 +1,95 @@
+@media screen and (max-width:957px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        position: fixed;
+        z-index: 3;
+    }
+    
+    .navlist {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        
+    }
+    nav ul li {
+        opacity: 0;
+        
+        
+    }
+    .letras-nav {
+        display: block;
+    }
+    .mobile-menu {
+        display: block;
+        transition: 0.3s;
+       
+    }
+    .mobile-menu.active .line1{
+        transform: rotate(-45deg) translate(-8px, 8px);
+
+    }
+    .mobile-menu.active .line2{
+        opacity: 0;
+    }
+    .mobile-menu.active .line3{ 
+        transform: rotate(45deg) translate(-5px, -7px);
+        
+    }
+    .navlist.active {
+        transform: translateX(0);
+    }
+    
+    
+        
+   .video {
+        display: none;
+    }
+    .letra {
+        display: block;
+    }
+    .links {
+        width: 10%;
+        }
+    
+}
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@media screen and (max-width:515px){
+    .section {
+        max-width: 515px;
+        width: 100%;
+        position: relative;
+    }
+    .links {
+        position: relative;
+        margin-top: 360px;
+        
+        width: 20%;
+
+    }
+    div.video>video {
+        height: 250px;
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        margin-top: 25px;
+    }
+}
