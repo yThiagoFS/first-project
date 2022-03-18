@@ -83,6 +83,9 @@ nav ul li a:hover::after{
     background-color: #fff;
     margin: 0.8rem;
 }
+main {
+    width: 100%;
+}
 
 .section{
     height: 100vh;
